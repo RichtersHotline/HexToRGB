@@ -1,0 +1,72 @@
+*,
+*::before,
+*::after {
+margin:0;
+padding: 0;
+box-sizing:border-box;
+
+}
+
+.container {
+font-family:arial;
+color:black;
+width:50%;
+margin:auto;
+text-align:center;
+
+}
+h1 {
+
+    text-align:center;
+}
+.MainCon {
+
+color:white;
+
+}
+.MainConBG {
+
+background-image: linear-gradient(to left, blue,darkred );
+padding:0.8rem;
+width:30%;
+margin:auto;
+}
+
+.MainConBG label {
+
+display:block;
+
+}
+#UserInput {
+
+border:2px solid black;
+
+}
+#Output {
+
+margin-top:0.4rem;
+
+}
+::placeholder {
+
+padding:0.4rem;
+
+}
+#ConvBtn {
+
+padding:0.4rem;
+background-image: linear-gradient(to left, blue,darkred );
+
+color:white;
+&:hover {
+
+box-shadow:2px 2px fuchsia;
+
+}
+
+}
+#Seconds {
+
+display:none;
+
+}
